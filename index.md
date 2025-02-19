@@ -12,7 +12,7 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
     <div class="col-12">
 <!-- Source: M1 -->
           <!-- M1 to M -->
-            <table>
+            <table class="table">
                 <tr>
                     <td style="width: 25%">mix</td>
                     <td style="width: 25%">clean s1</td>
