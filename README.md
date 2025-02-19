@@ -1,1 +1,1 @@
-# Maskgenet-demo
+# MaskGENet-DEMO
