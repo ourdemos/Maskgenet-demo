@@ -8,6 +8,8 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 
 ## Audio Demos
 
+<div class="row">
+    <div class="col-12 ml-auto">
 <!-- Source: M1 -->
           <!-- M1 to M -->
             <table width="400">
@@ -65,6 +67,8 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
                     </td>
                 </tr>
             </table>
+    </div>
+</div>
 
 
 <div class="row">
