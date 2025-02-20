@@ -11,12 +11,14 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 <div class="row">
     <div class="col-12 ml-auto">
         <table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
-            <tr>
-                <td style="width: 25%;">mix</td>
-                <td style="width: 25%;">clean s1</td>
-                <td style="width: 25%;">enroll s1</td>
-                <td style="width: 25%;">extract s1</td>
-            </tr>
+            <thead>
+                <tr>
+                    <td style="width: 25%;">mix</td>
+                    <td style="width: 25%;">clean s1</td>
+                    <td style="width: 25%;">enroll s1</td>
+                    <td style="width: 25%;">extract s1</td>
+                </tr>
+            </thead>
             <tr>
                 <td>
                     <audio id="player" controls style="width: 100%;">
@@ -39,12 +41,14 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
                     </audio>
                 </td>
             </tr>
-            <tr>
-                <td></td>
-                <td>clean s2</td>
-                <td>enroll s2</td>
-                <td>extract s2</td>
-            </tr>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>clean s2</td>
+                    <td>enroll s2</td>
+                    <td>extract s2</td>
+                </tr>
+            </thead>
             <tr>
                 <td></td>
                 <td>
