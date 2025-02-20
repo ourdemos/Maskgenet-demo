@@ -13,10 +13,10 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
         <table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
             <thead>
                 <tr>
-                    <td style="width: 25%;">mix</td>
-                    <td style="width: 25%;">clean s1</td>
-                    <td style="width: 25%;">enroll s1</td>
-                    <td style="width: 25%;">extract s1</td>
+                    <th style="width: 25%;">mix</th>
+                    <th style="width: 25%;">clean s1</th>
+                    <th style="width: 25%;">enroll s1</th>
+                    <th style="width: 25%;">extract s1</th>
                 </tr>
             </thead>
             <tr>
