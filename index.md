@@ -10,65 +10,63 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 
 <div class="container-fluid">
     <div class="col-12">
-<!-- Source: M1 -->
-          <!-- M1 to M -->
-            <table class="table" style="width: 100%;">
-                <tr>
-                    <td style="width: 25%">mix</td>
-                    <td style="width: 25%">clean s1</td>
-                    <td style="width: 25%">enroll s1</td>
-                    <td style="width: 25%">extract s1</td>
-                </tr>
-                <tr>
-                    <td>
-                        <audio id="player" controls style="width: 100%;">
-                            <source src="audio/mix/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                        </audio>
-                    </td>
-                    <td>
-                        <audio id="player" controls style="width: 100%;">
-                            <source src="audio/clean_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                        </audio>
-                    </td>
-                    <td>
-                        <audio id="player" controls style="width: 100%;">
-                            <source src="audio/enroll_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                        </audio>
-                    </td>
-                    <td>
-                        <audio id="player" controls style="width: 100%;">
-                            <source src="audio/extract_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                        </audio>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>clean s2</td>
-                    <td>enroll s2</td>
-                    <td>extract s2</td>
-                </tr>
-                <tr>
-                    <td>
-                    </td>
-                    <td>
-                        <audio id="player" controls style="width: 100%;">
-                            <source src="audio/clean_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                        </audio>
-                    </td>
-                    <td>
-                        <audio id="player" controls style="width: 100%;">
-                            <source src="audio/enroll_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                        </audio>
-                    </td>
-                    <td>
-                        <audio id="player" controls style="width: 100%;">
-                            <source src="audio/extract_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                        </audio>
-                    </td>
-                </tr>
-            </table>
+        <table class="table" style="width: 100%; table-layout: fixed;">
+            <tr>
+                <td style="width: 25%;">mix</td>
+                <td style="width: 25%;">clean s1</td>
+                <td style="width: 25%;">enroll s1</td>
+                <td style="width: 25%;">extract s1</td>
+            </tr>
+            <tr>
+                <td>
+                    <audio id="player" controls style="width: 100%;">
+                        <source src="audio/mix/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                    </audio>
+                </td>
+                <td>
+                    <audio id="player" controls style="width: 100%;">
+                        <source src="audio/clean_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                    </audio>
+                </td>
+                <td>
+                    <audio id="player" controls style="width: 100%;">
+                        <source src="audio/enroll_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                    </audio>
+                </td>
+                <td>
+                    <audio id="player" controls style="width: 100%;">
+                        <source src="audio/extract_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>clean s2</td>
+                <td>enroll s2</td>
+                <td>extract s2</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <audio id="player" controls style="width: 100%;">
+                        <source src="audio/clean_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                    </audio>
+                </td>
+                <td>
+                    <audio id="player" controls style="width: 100%;">
+                        <source src="audio/enroll_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                    </audio>
+                </td>
+                <td>
+                    <audio id="player" controls style="width: 100%;">
+                        <source src="audio/extract_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                    </audio>
+                </td>
+            </tr>
+        </table>
     </div>
 </div>
+
 
 
 <div class="row">
