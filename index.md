@@ -20,25 +20,25 @@ Most existing target speaker extractedion (TSE) methods rely on a discriminative
                 </tr>
             </thead>
             <tr>
-                <td rowspan="4" style="vertical-align: top;">
+                <td rowspan="4">
                     <p>Mix</p>
                     <audio id="player" controls style="width: 100%;">
                         <source src="audio/mix/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
                     </audio>
                 </td>
-                <td rowspan="4" style="vertical-align: top;">
+                <td rowspan="4">
                     <p>S1 clean</p>
                     <audio id="player" controls style="width: 100%;">
                         <source src="audio/clean_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
                     </audio>
                 </td>
-                <td rowspan="4" style="vertical-align: top;">
+                <td rowspan="4">
                     <p>S1 enroll</p>
                     <audio id="player" controls style="width: 100%;">
                         <source src="audio/enroll_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
                     </audio>
                 </td>
-                <td rowspan="4" style="vertical-align: top;">
+                <td rowspan="4">
                     <p>S1 extracted</p>
                     <audio id="player" controls style="width: 100%;">
                         <source src="audio/extracted_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
