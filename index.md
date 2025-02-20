@@ -8,11 +8,11 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 
 ## Audio Demos
 
-<div class="row">
+<div class="container-fluid">
     <div class="col-12">
 <!-- Source: M1 -->
           <!-- M1 to M -->
-            <table class="table">
+            <table class="table" style="width: 100%;">
                 <tr>
                     <td style="width: 25%">mix</td>
                     <td style="width: 25%">clean s1</td>
