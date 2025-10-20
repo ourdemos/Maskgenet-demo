@@ -61,7 +61,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center;" rowspan="4">MF</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Mixture.png" alt="Mix" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Enroll1.png" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
-                    <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;">-</td>
+                    <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_Clean.png" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_MaskGENet.png" alt="MaskGENet (Ours)" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_CIENet256.png" alt="CIENet256" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_SpEx+.png" alt="SpEx+" style="width: 100%; max-width: 180px;"></td>
@@ -69,7 +69,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                 <tr>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Mixture.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Enroll1.wav" type="audio/wav"></audio></td>
-                    <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;">-</td>
+                    <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_Clean.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_MaskGENet.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_SpEx+.wav" type="audio/wav"></audio></td>
