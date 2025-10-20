@@ -12,14 +12,14 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
         <table class="table table-bordered table-hover demo-table" style="background-color: #f8f9fa;">
             <thead>
                 <tr>
-                    <th style="text-align: center; vertical-align: middle;">Condition</th>
+                    <th style="text-align: center; vertical-align: middle;">Condition </th>
                     <th style="text-align: center; vertical-align: middle;">Gender Mix</th>
-                    <th style="text-align: center; vertical-align: middle;">Mix</th>
-                    <th style="text-align: center; vertical-align: middle;">Enroll</th>
-                    <th style="text-align: center; vertical-align: middle;">Target</th>
-                    <th style="text-align: center; vertical-align: middle;">MaskGENet (Ours)</th>
-                    <th style="text-align: center; vertical-align: middle;">CIENet256</th>
-                    <th style="text-align: center; vertical-align: middle;">SpEx+</th>
+                    <th style="text-align: center; vertical-align: middle;">Mix       </th>
+                    <th style="text-align: center; vertical-align: middle;">Enroll    </th>
+                    <th style="text-align: center; vertical-align: middle;">Target    </th>
+                    <th style="text-align: center; vertical-align: middle;">MaskGENet </th>
+                    <th style="text-align: center; vertical-align: middle;">CIENet256 </th>
+                    <th style="text-align: center; vertical-align: middle;">SpEx+     </th>
                 </tr>
             </thead>
             <tbody>
