@@ -21,8 +21,7 @@ Most existing target speaker extractedion (TSE) methods rely on a discriminative
                     <th style="width: 14%;">SpEx+</th>
                     </tr>
             </thead>
-            </table>
-	<tbody>
+		<tbody>
             <tr>
                 <td>
                     <p>Mix</p>
@@ -375,6 +374,7 @@ Most existing target speaker extractedion (TSE) methods rely on a discriminative
                         </audio>
                 </td>
             </tr>
-	</tbody>
+		</tbody>
+		</table>
     </div>
 </div>
