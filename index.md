@@ -8,306 +8,357 @@ Most existing target speaker extractedion (TSE) methods rely on a discriminative
 
 ## Audio Demos
 
-<div class="row">
-    <div class="col-12 ml-auto">
-        <table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
-            <thead>
-                <tr>
-                    <th style="width: 25%;">Mix</th>
-                    <th style="width: 25%;">Clean</th>
-                    <th style="width: 25%;">Enroll</th>
-                    <th style="width: 25%;">Extracted</th>
-                </tr>
-            </thead>
+<tbody>
             <tr>
                 <td>
                     <p>Mix</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/mix/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                    </audio>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Mixture.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                    </audio>
+                    <p>Enroll</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Enroll1.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                    </audio>
+                    <p>Target</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_Clean.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <p>S2 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                    </audio>
+                    <p>MaskGENet (Ours)</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_MaskGENet.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                    </audio>
+                    <p>CIENet256</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_CIENet256.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
-                    </audio>
+                    <p>SpEx+</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_SpEx+.wav" type="audio/wav" />
+                        </audio>
                 </td>
             </tr>
             <tr>
                 <td>
                     <p>Mix</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/mix/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
-                    </audio>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Mixture.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s1/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
-                    </audio>
+                    <p>Enroll</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Enroll1.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s1/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
-                    </audio>
+                    <p>Target</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_Clean.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s1/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td>
+                    <p>MaskGENet (Ours)</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_MaskGENet.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s2/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
-                    </audio>
+                    <p>CIENet256</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_CIENet256.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s2/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
-                    </audio>
-                </td>
-                <td>
-                    <p>S2 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s2/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
-                    </audio>
+                    <p>SpEx+</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_SpEx+.wav" type="audio/wav" />
+                        </audio>
                 </td>
             </tr>
             <tr>
                 <td>
                     <p>Mix</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/mix/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
-                    </audio>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Mixture.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s1/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
-                    </audio>
+                    <p>Enroll</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Enroll1.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s1/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
-                    </audio>
+                    <p>Target</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_Clean.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s1/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
-                    </audio>
-                </td>
-            </tr>
-            <tr>
-                <td>
+                    <p>MaskGENet (Ours)</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_MaskGENet.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s2/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
-                    </audio>
+                    <p>CIENet256</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_CIENet256.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s2/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
-                    </audio>
-                </td>
-                <td>
-                    <p>S2 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s2/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
-                    </audio>
+                    <p>SpEx+</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_SpEx+.wav" type="audio/wav" />
+                        </audio>
                 </td>
             </tr>
             <tr>
                 <td>
                     <p>Mix</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/mix/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
-                    </audio>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Mixture.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s1/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
-                    </audio>
+                    <p>Enroll</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Enroll1.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s1/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
-                    </audio>
+                    <p>Target</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_Clean.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s1/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
-                    </audio>
+                    <p>MaskGENet (Ours)</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_MaskGENet.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>CIENet256</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_CIENet256.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>SpEx+</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_SpEx+.wav" type="audio/wav" />
+                        </audio>
                 </td>
             </tr>
-            <tr>
-                <td>
-                </td>
-                <td>
-                    <p>S2 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s2/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
-                    </audio>
-                </td>
-                <td>
-                    <p>S2 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s2/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
-                    </audio>
-                </td>
-                <td>
-                    <p>S2 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s2/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
-                    </audio>
-                </td>
-            </tr>
-            <!---next---->
             <tr>
                 <td>
                     <p>Mix</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/mix/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
-                    </audio>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Mixture.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s1/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
-                    </audio>
+                    <p>Enroll</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Enroll1.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s1/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
-                    </audio>
+                    <p>Target</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_Clean.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s1/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
-                    </audio>
+                    <p>MaskGENet (Ours)</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_MaskGENet.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>CIENet256</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_CIENet256.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>SpEx+</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_SpEx+.wav" type="audio/wav" />
+                        </audio>
                 </td>
             </tr>
-            <tr>
-                <td>
-                </td>
-                <td>
-                    <p>S2 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s2/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
-                    </audio>
-                </td>
-                <td>
-                    <p>S2 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s2/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
-                    </audio>
-                </td>
-                <td>
-                    <p>S2 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s2/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
-                    </audio>
-                </td>
-            </tr>
-            <!---next--->
             <tr>
                 <td>
                     <p>Mix</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/mix/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
-                    </audio>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Mixture.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s1/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
-                    </audio>
+                    <p>Enroll</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Enroll1.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s1/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
-                    </audio>
+                    <p>Target</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_Clean.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S1 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s1/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
-                    </audio>
+                    <p>MaskGENet (Ours)</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_MaskGENet.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>CIENet256</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_CIENet256.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>SpEx+</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_SpEx+.wav" type="audio/wav" />
+                        </audio>
                 </td>
             </tr>
             <tr>
                 <td>
+                    <p>Mix</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/Mixture.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 clean</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/clean_s2/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
-                    </audio>
+                    <p>Enroll</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/Enroll1.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 enroll</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/enroll_s2/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
-                    </audio>
+                    <p>Target</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_Clean.wav" type="audio/wav" />
+                        </audio>
                 </td>
                 <td>
-                    <p>S2 extracted</p>
-                    <audio id="player" controls style="width: 100%;">
-                        <source src="audio/extracted_s2/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
-                    </audio>
+                    <p>MaskGENet (Ours)</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_MaskGENet.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>CIENet256</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_CIENet256.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>SpEx+</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_SpEx+.wav" type="audio/wav" />
+                        </audio>
                 </td>
             </tr>
-        </table>
-    </div>
-</div>
+            <tr>
+                <td>
+                    <p>Mix</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Mixture.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>Enroll</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Enroll1.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>Target</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_Clean.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>MaskGENet (Ours)</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_MaskGENet.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>CIENet256</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_CIENet256.wav" type="audio/wav" />
+                        </audio>
+                </td>
+                <td>
+                    <p>SpEx+</p>
+                    
+                        <audio controls style="width: 100%;">
+                            <source src="/Volumes/Durin/1/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_SpEx+.wav" type="audio/wav" />
+                        </audio>
+                </td>
+            </tr>
+</tbody>
