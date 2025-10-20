@@ -7,287 +7,137 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 
 ## Audio Demos
 
-<div class="row">
-	<div class="col-12 ml-auto">
-		<table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
-			<thead>
-				<tr>
-					<th style="width: 7%;">Condition</th>
-					<th style="width: 7%;">Gender Mix</th>
-					<th style="width: 14%;">Mix</th>
-					<th style="width: 14%;">Enroll</th>
-					<th style="width: 14%;">Target</th>
-					<th style="width: 14%;">MaskGENet (Ours)</th>
-					<th style="width: 14%;">CIENet256</th>
-					<th style="width: 14%;">SpEx+</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td rowspan="4" style="vertical-align: middle; text-align: center;"><strong>Clean</strong></td>
-					<td>FF</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Mixture.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Enroll1.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_Clean.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_MaskGENet.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_CIENet256.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_SpEx+.wav" type="audio/wav" />
-						</audio>
-					</td>
-				</tr>
-				<tr>
-					<td>MF</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Mixture.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Enroll1.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_Clean.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_MaskGENet.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_CIENet256.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_SpEx+.wav" type="audio/wav" />
-						</audio>
-					</td>
-				</tr>
-				<tr>
-					<td rowspan="2">MM</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Mixture.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Enroll1.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_Clean.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_MaskGENet.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_CIENet256.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_SpEx+.wav" type="audio/wav" />
-						</audio>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Mixture.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Enroll1.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_Clean.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_MaskGENet.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_CIENet256.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_SpEx+.wav" type="audio/wav" />
-						</audio>
-					</td>
-				</tr>
-				<tr>
-					<td rowspan="4" style="vertical-align: middle; text-align: center;"><strong>Noisy</strong></td>
-					<td>FF</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Mixture.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Enroll1.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_Clean.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_MaskGENet.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_CIENet256.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_SpEx+.wav" type="audio/wav" />
-						</audio>
-					</td>
-				</tr>
-				<tr>
-					<td rowspan="2">MF</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Mixture.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Enroll1.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_Clean.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_MaskGENet.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_CIENet256.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_SpEx+.wav" type="audio/wav" />
-						</audio>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/Mixture.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/Enroll1.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_Clean.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_MaskGENet.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_CIENet256.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_SpEx+.wav" type="audio/wav" />
-						</audio>
-					</td>
-				</tr>
-				<tr>
-					<td>MM</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Mixture.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Enroll1.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_Clean.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_MaskGENet.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_CIENet256.wav" type="audio/wav" />
-						</audio>
-					</td>
-					<td>
-						<audio controls style="width: 100%;">
-							<source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_SpEx+.wav" type="audio/wav" />
-						</audio>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</div>
+<div class="row"><div class="col-12 ml-auto">
+                <table class="table table-bordered table-hover" style="background-color: #f8f9fa;">
+                    <thead><tr>                    <th style="text-align: center; vertical-align: middle;">Condition</th>
+                    <th style="text-align: center; vertical-align: middle;">Gender Mix</th>
+                    <th style="text-align: center; vertical-align: middle;">Mix</th>
+                    <th style="text-align: center; vertical-align: middle;">Enroll</th>
+                    <th style="text-align: center; vertical-align: middle;">Target</th>
+                    <th style="text-align: center; vertical-align: middle;">MaskGENet (Ours)</th>
+                    <th style="text-align: center; vertical-align: middle;">CIENet256</th>
+                    <th style="text-align: center; vertical-align: middle;">SpEx+</th>
+</tr></thead>
+                    <tbody>            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Clean</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">FF</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Clean</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">FF</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Clean</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">MF</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">-</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Clean</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">MF</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Clean</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">MM</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Clean</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">MM</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Noisy</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">FF</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Noisy</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">FF</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/8555-284449-0007_5683-32866-0005/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Noisy</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">MF</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Noisy</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">MF</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4992-23283-0018_1188-133604-0013/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Noisy</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">MM</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><b>Noisy</b></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;">MM</td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/Mixture.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/Mixture.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/Enroll1.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/Enroll1.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/S1_Clean.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/S1_Clean.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/S1_MaskGENet.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/S1_MaskGENet.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/S1_CIENet256.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/S1_CIENet256.wav" type="audio/wav"></audio></td>
+                <td style="vertical-align: middle; text-align: center; padding: 10px;"><img src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/S1_SpEx+.png" alt="Spectrogram" style="width: 100%; max-width: 180px; display: block; margin: 0 auto 8px auto;"><br><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/S1_SpEx+.wav" type="audio/wav"></audio></td>
+            </tr>
+</tbody>
+                </table>
+            </div>
