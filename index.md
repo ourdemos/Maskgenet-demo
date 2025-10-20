@@ -12,6 +12,8 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 		<table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
 			<thead>
 				<tr>
+					<th style="width: 7%;">Condition</th>
+					<th style="width: 7%;">Gender Mix</th>
 					<th style="width: 14%;">Mix</th>
 					<th style="width: 14%;">Enroll</th>
 					<th style="width: 14%;">Target</th>
@@ -22,6 +24,8 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 			</thead>
 			<tbody>
 				<tr>
+					<td rowspan="4" style="vertical-align: middle; text-align: center;"><strong>Clean</strong></td>
+					<td>FF</td>
 					<td>
 						<audio controls style="width: 100%;">
 							<source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Mixture.wav" type="audio/wav" />
@@ -54,6 +58,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 					</td>
 				</tr>
 				<tr>
+					<td>MF</td>
 					<td>
 						<audio controls style="width: 100%;">
 							<source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Mixture.wav" type="audio/wav" />
@@ -86,6 +91,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 					</td>
 				</tr>
 				<tr>
+					<td rowspan="2">MM</td>
 					<td>
 						<audio controls style="width: 100%;">
 							<source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Mixture.wav" type="audio/wav" />
@@ -150,6 +156,8 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 					</td>
 				</tr>
 				<tr>
+					<td rowspan="4" style="vertical-align: middle; text-align: center;"><strong>Noisy</strong></td>
+					<td>FF</td>
 					<td>
 						<audio controls style="width: 100%;">
 							<source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/Mixture.wav" type="audio/wav" />
@@ -182,6 +190,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 					</td>
 				</tr>
 				<tr>
+					<td rowspan="2">MF</td>
 					<td>
 						<audio controls style="width: 100%;">
 							<source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Mixture.wav" type="audio/wav" />
@@ -246,6 +255,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 					</td>
 				</tr>
 				<tr>
+					<td>MM</td>
 					<td>
 						<audio controls style="width: 100%;">
 							<source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Mixture.wav" type="audio/wav" />
