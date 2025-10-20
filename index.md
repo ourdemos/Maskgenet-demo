@@ -9,7 +9,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
 
 <div class="row">
     <div class="col-12 ml-auto">
-        <table class="table table-bordered table-hover" style="background-color: #f8f9fa;">
+        <table class="table table-bordered table-hover demo-table" style="background-color: #f8f9fa;">
             <thead>
                 <tr>
                     <th style="text-align: center; vertical-align: middle;">Condition</th>
