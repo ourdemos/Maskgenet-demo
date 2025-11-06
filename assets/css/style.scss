@@ -1,0 +1,11 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+// 2. 在这里添加你自己的代码来“覆盖”默认样式
+
+// 这是用来增宽页面的代码
+.main-content {
+  max-width: 1200px; 
+}
