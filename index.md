@@ -45,7 +45,6 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
-                
                 <tr>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Enroll:</b><br><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Enroll1.jpg" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
