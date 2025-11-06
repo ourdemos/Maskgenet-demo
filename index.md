@@ -21,7 +21,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
             <tbody>
                 <tr>
                     <td style="vertical-align: middle; text-align: center;" rowspan="36"><b>Clean</b></td>
-                    <td style="vertical-align: middle; text-align: center;" rowspan="12">FF</td>
+                    <td style="vertical-align: middle; text-align: center;" rowspan="6">FF</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Enroll:</b><br><img src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/Enroll1.jpg" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
                 </tr>
@@ -46,7 +46,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/1284-1180-0007_2094-142345-0002/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>        
                 <tr>
-                    <td style="vertical-align: middle; text-align: center;" rowspan="12">FF</td>
+                    <td style="vertical-align: middle; text-align: center;" rowspan="6">FF</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Enroll:</b><br><img src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/Enroll1.jpg" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
                 </tr>
@@ -71,7 +71,7 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/FF/5142-33396-0018_2094-142345-0043/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
                 <tr>
-                    <td style="vertical-align: middle; text-align: center;" rowspan="12">MF</td>
+                    <td style="vertical-align: middle; text-align: center;" rowspan="6">MF</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Enroll:</b><br><img src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/Enroll1.jpg" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
                 </tr>
@@ -95,8 +95,8 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/1089-134686-0006_1580-141083-002/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
-        
                 <tr>
+                    <td style="vertical-align: middle; text-align: center;" rowspan="6">MF</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Enroll:</b><br><img src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/Enroll1.jpg" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
                 </tr>
@@ -120,9 +120,8 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MF/7127-75947-0040_237-126133-0002/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
-
                 <tr>
-                    <td style="vertical-align: middle; text-align: center;" rowspan="12">MM</td>
+                    <td style="vertical-align: middle; text-align: center;" rowspan="6">MM</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Enroll:</b><br><img src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/Enroll1.jpg" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
                 </tr>
@@ -146,8 +145,8 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/7729-102255-0023_61-70968-0033/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
-
                 <tr>
+                    <td style="vertical-align: middle; text-align: center;" rowspan="6">MM</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Enroll:</b><br><img src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/Enroll1.jpg" alt="Enroll" style="width: 100%; max-width: 180px;"></td>
                 </tr>
@@ -171,7 +170,6 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Clean/MM/8455-210777-0058_7176-88083-0006/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
-
                 <tr>
                     <td style="vertical-align: middle; text-align: center;" rowspan="24"><b>Noisy</b></td>
                     <td style="vertical-align: middle; text-align: center;" rowspan="6">FF</td>
@@ -198,7 +196,6 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/FF/3729-6852-0038_8463-294828-0003/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
-
                 <tr>
                     <td style="vertical-align: middle; text-align: center;" rowspan="6">MF</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
@@ -224,7 +221,6 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MF/4446-2275-0008_2300-131720-0032/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
-
                 <tr>
                     <td style="vertical-align: middle; text-align: center;" rowspan="6">MM</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
@@ -250,7 +246,6 @@ Most existing target speaker extraction (TSE) methods adopt discriminative appro
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_CIENet256.wav" type="audio/wav"></audio></td>
                     <td style="vertical-align: middle; text-align: center; padding: 0 5px 10px 5px;"><audio controls style="width: 100%;"><source src="audio/Libri2Mix-Noisy/MM/7729-102255-0017_672-122797-0063/S1_Spex+.wav" type="audio/wav"></audio></td>
                 </tr>
-
                 <tr>
                     <td style="vertical-align: middle; text-align: center;" rowspan="6">MM</td>
                     <td style="vertical-align: middle; text-align: center; padding: 10px 5px 0 5px;"><b>Mix:</b><br><img src="audio/Libri2Mix-Noisy/MM/8455-210777-0017_260-123286-0013/Mixture.jpg" alt="Mix" style="width: 100%; max-width: 180px;"></td>
